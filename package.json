@@ -2,7 +2,7 @@
   "name": "server",
   "type": "module",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
